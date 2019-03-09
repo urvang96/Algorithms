@@ -113,6 +113,7 @@ def calculate_points(sortedranges, find, start, end):
         return calculate_points(sortedranges, find, midpoint, end)
 
 
+# quick_sort([4,5,3,7,2], 0, 5)
 if __name__ == "__main__":
 
     TotalSingers = int(input())
